@@ -1,0 +1,32 @@
+.heading{
+    margin: 40px;
+    
+}
+hr{
+    margin: 40px;
+}
+.shoppingCartContainer{
+    justify-items: center;
+}
+table, td{
+    margin: 10px;
+ }
+td{
+    padding: 10px;
+    
+}   
+.data{
+    width: 350px;
+}
+.removeBtn{
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width:100px;
+    padding: 4px;
+}
+.removeBtn:hover{
+    background-color:rgb(26, 25, 25);
+    color: beige;
+    transition: 1s;
+}

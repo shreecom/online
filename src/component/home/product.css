@@ -1,0 +1,107 @@
+.companyName{
+    color: white;
+    font-size:1.6rem;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bolder;
+    cursor:auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+    margin-top: 40px;
+}
+.card_info{
+    width: 250px;
+    border: 1px solid rgb(189, 185, 185);
+    padding: 10px;
+    
+}
+.product_panel{
+    margin: 40px;
+}
+hr{
+    margin: 10 60px 0 60px;
+}
+
+.box img:hover{
+    border: 1px solid rgb(248, 239, 239);
+}
+.tagline{
+    position: absolute;
+    top: 230px;
+    left: 90px;
+}
+.tagline h1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    
+}
+/* navbar module */
+ .nav{
+    background-color:rgb(112, 28, 46);
+    display:flex;
+    color: aliceblue;
+    text-align: center;
+        padding: 13px;
+    justify-content: space-around;
+ }
+  .linkname ,.buyBtn{
+    font-size: 18px;
+    color: rgb(196, 206, 214);
+    margin: 10px;
+    text-decoration: none;
+ }
+ .linkname:hover{
+    color:white;
+ }
+ .buyBtn{
+    color: brown;
+ } 
+ .buyBtn:hover{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    color: green;
+ }
+ .btn{
+    color: rgb(206, 220, 231);
+    border: 1px solid  rgb(206, 220, 231);
+    margin: 0 10px;
+     }
+ .btn:hover{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background-color: brown;
+ }
+ /* icon  */
+ .icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+ }
+ .linkBar{
+    display: flex;
+ }
+ @media screen and (max-width: 780px) {
+    .icon{
+        display: block;
+    }
+    .linkBar{
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color:black;
+        position: absolute;
+        width: 350px;
+        top: -800px;
+        right: 0;
+        z-index: 10;
+    }
+    .linkBar.active{
+        top: 40%;
+        transition: all 0.3s ease-in;
+    }
+ }
