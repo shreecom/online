@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shreecom/online.git/static/css/main.e36708a2.css",
-    "main.js": "/shreecom/online.git/static/js/main.6bf3e440.js",
-    "static/js/453.a2379d03.chunk.js": "/shreecom/online.git/static/js/453.a2379d03.chunk.js",
-    "index.html": "/shreecom/online.git/index.html",
-    "main.e36708a2.css.map": "/shreecom/online.git/static/css/main.e36708a2.css.map",
-    "main.6bf3e440.js.map": "/shreecom/online.git/static/js/main.6bf3e440.js.map",
-    "453.a2379d03.chunk.js.map": "/shreecom/online.git/static/js/453.a2379d03.chunk.js.map"
+    "main.css": "/shreecom/online/static/css/main.e36708a2.css",
+    "main.js": "/shreecom/online/static/js/main.b3d8e518.js",
+    "static/js/453.a2379d03.chunk.js": "/shreecom/online/static/js/453.a2379d03.chunk.js",
+    "index.html": "/shreecom/online/index.html",
+    "main.e36708a2.css.map": "/shreecom/online/static/css/main.e36708a2.css.map",
+    "main.b3d8e518.js.map": "/shreecom/online/static/js/main.b3d8e518.js.map",
+    "453.a2379d03.chunk.js.map": "/shreecom/online/static/js/453.a2379d03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e36708a2.css",
-    "static/js/main.6bf3e440.js"
+    "static/js/main.b3d8e518.js"
   ]
 }
