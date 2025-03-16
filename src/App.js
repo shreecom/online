@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route extact path='/home' element={<Home />}></Route>
+        <Route extact path='/' element={<Home />}></Route>
         <Route path='/product' element={<Product />}></Route>
         <Route path='/product/:id' element={<ProductDetails />}></Route>
 
