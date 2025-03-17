@@ -5,11 +5,11 @@ function Home() {
   return (
     <div className='HomePanel'>
       <div className='Homescreen'>
-      <img src="/assets/home.jpg" width='100%' height={500} alt='not found'></img>
+      <img src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg" width='100%' height={500} alt='notfound'></img>
       </div>
-        <div className='tagline'>
+        {/* <div className='tagline'>
           <h1>The Best Quality Product</h1>
-        </div>
+        </div> */}
       <Product/>
     </div>
   )
