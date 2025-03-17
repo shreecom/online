@@ -1,16 +1,18 @@
 import React from 'react'
-import Product from './Product';
+// import Product from './Product';
+import Filter from './Filter';
 
 function Home() {
   return (
     <div className='HomePanel'>
       <div className='Homescreen'>
-      <img src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg" width='100%' height={500} alt='notfound'></img>
+      <img src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg" width='100%' height={500} alt='imagenotfound'></img>
       </div>
         {/* <div className='tagline'>
           <h1>The Best Quality Product</h1>
         </div> */}
-      <Product/>
+      {/* <Product/> */}
+      <Filter/>
     </div>
   )
 }

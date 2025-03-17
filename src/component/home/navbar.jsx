@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './product.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useSelector } from 'react-redux';
-import { FiFilter } from 'react-icons/fi';
+// import { FiFilter } from 'react-icons/fi';
 import { FaBars } from "react-icons/fa";
 
 
@@ -28,7 +28,7 @@ function Navbar() {
           <NavLink to='/cart' className='btn'>
             <ShoppingCartIcon></ShoppingCartIcon>  Cart  {cartItem.length}</NavLink>
 
-          <NavLink to='/filter' className='btn'> <FiFilter />  Filter</NavLink>
+          {/* <NavLink to='/filter' className='btn'> <FiFilter />  Filter</NavLink> */}
         </div>
         <div className='icon' onClick={toggleMenu}>
           <FaBars />
