@@ -28,7 +28,7 @@ function Navbar() {
           <NavLink to='/cart' className='btn'>
             <ShoppingCartIcon></ShoppingCartIcon>  Cart  {cartItem.length}</NavLink>
 
-          <NavLink to='/filter' className='btn'> <FiFilter />  Filter</NavLink>
+          <NavLink to='/filter' className='btn'> <FiFilter /> </NavLink>
         </div>
         <div className='icon' onClick={toggleMenu}>
           <FaBars />
