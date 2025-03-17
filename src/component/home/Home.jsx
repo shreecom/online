@@ -1,6 +1,5 @@
 import React from 'react'
-// import Product from './Product';
-import Filter from './Filter';
+import Product from './Product';
 
 function Home() {
   return (
@@ -11,8 +10,7 @@ function Home() {
         {/* <div className='tagline'>
           <h1>The Best Quality Product</h1>
         </div> */}
-      {/* <Product/> */}
-      <Filter/>
+      <Product/>
     </div>
   )
 }
