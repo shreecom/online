@@ -21,7 +21,7 @@ function App() {
 
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
-        <Route path='/filter' element={<Filter />}> </Route>
+        <Route path='/product' element={<Filter />}> </Route>
       </Routes>
     </div>
   );
