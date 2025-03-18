@@ -53,7 +53,7 @@ const Product = () => {
      }
   return (
     <div className='product_panel'>
-      <h1> Latest Products</h1>
+      <h1> LATEST PRODUCT</h1>
       <hr></hr>
       
       <div height={300} width={300}>
