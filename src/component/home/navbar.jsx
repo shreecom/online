@@ -16,23 +16,28 @@ function Navbar() {
   return (
     <>
       <div className='nav'>
-        <h2>Fation Market</h2>
+      {/* menu button */}
+      <div className='icon' onClick={toggleMenu}>  
+          <FaBars />
+        </div>
+    <div><h2>Fation Market</h2> </div>
+      
         <div className={isopen ? "linkBar active" : "linkBar"}>
+        
           {/* <NavLink to='/' className='companyName'> Fation Market</NavLink> */}
           <NavLink to='/' className='linkname'>Home</NavLink>
           <NavLink to='/product' className='linkname'>Product</NavLink>
           <NavLink to='/about' className='linkname'> About</NavLink>
           <NavLink to='/contact' className='linkname'>Contact</NavLink>
         </div>
+        
         <div className='navbarBtn'>
           <NavLink to='/cart' className='btn'>
-            <ShoppingCartIcon></ShoppingCartIcon>  Cart  {cartItem.length}</NavLink>
+            <ShoppingCartIcon></ShoppingCartIcon>    {cartItem.length}</NavLink>
 
           <NavLink to='/filter' className='btn'> <FiFilter /> </NavLink>
         </div>
-        <div className='icon' onClick={toggleMenu}>
-          <FaBars />
-        </div>
+        
       </div>
 
     </>

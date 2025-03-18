@@ -1,6 +1,6 @@
 import React from 'react'
 import Product from './Product';
-
+import './product.css';
 function Home() {
   return (
     <div className='HomePanel'>

@@ -86,6 +86,10 @@ hr{
  .linkBar{
     display: flex;
  }
+ /* home page */
+ .HomePanel{
+    height: 500px;
+ }
  @media screen and (max-width: 780px) {
     .icon{
         display: block;
@@ -101,7 +105,20 @@ hr{
         z-index: 10;
     }
     .linkBar.active{
-        top: 40%;
+        top: 26%;
         transition: all 0.3s ease-in;
     }
+    .nav h2{
+        font-size: 23px;
+        align-items: center;
+    }
+     .btn{
+        font-size:15px;
+        padding: 5px;
+    }
+
+    /* home page */
+    .HomePanel img{
+        height: 200px;
+     }
  }
