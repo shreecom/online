@@ -108,16 +108,19 @@ hr{
     .linkBar{
         flex-direction: column;
         justify-content: space-evenly;
-        background-color:black;
+        background-color:rgb(245, 245, 245);
         position: absolute;
-        width: 350px;
+        width: 250px;
         top: -800px;
-        right: 0;
+        left: 0;
         z-index: 10;
     }
     .linkBar.active{
         top: 10%;
         transition: all 0.3s ease-in;
+    }
+    .linkname {
+        color: black;
     }
     .nav h2{
         font-size: 22px;
