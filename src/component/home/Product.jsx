@@ -56,7 +56,7 @@ const Product = () => {
       <h1> LATEST PRODUCT</h1>
       <hr></hr>
       
-      <div height={300} width={300}>
+      <div height={300} width={300} className='show'>
         {loading ? <Loading/> : <ShowProduct/>}
       </div>
     </div>

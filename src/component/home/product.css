@@ -89,7 +89,7 @@ hr{
  }
  /* icon  */
  .icon{
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
     display: none;
  }
@@ -116,15 +116,15 @@ hr{
         z-index: 10;
     }
     .linkBar.active{
-        top: 26%;
+        top: 10%;
         transition: all 0.3s ease-in;
     }
     .nav h2{
-        font-size: 23px;
+        font-size: 22px;
         align-items: center;
     }
      .btn{
-        font-size:15px;
+        font-size:10px;
         padding: 5px;
     }
     .Homescreen{
@@ -142,9 +142,11 @@ hr{
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
+        margin-top: 10px;
     }
     .product_panel{
         margin: 0%;
+        margin-top: 30px;
     }
     
     .card_info{
@@ -155,5 +157,11 @@ hr{
     .box img{
         width: 90px;
         height: 90px;
+    }
+    .box h5{
+        font-size: 15px;
+    }
+    .buyBtn{
+        font-size: 15px;
     }
  }
