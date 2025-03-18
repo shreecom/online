@@ -30,10 +30,10 @@ function Navbar() {
           <NavLink to='/about' className='linkname'> About</NavLink>
           <NavLink to='/contact' className='linkname'>Contact</NavLink>
         </div>
-        
+
         <div className='navbarBtn'>
           <NavLink to='/cart' className='btn'>
-            <ShoppingCartIcon></ShoppingCartIcon>    {cartItem.length}</NavLink>
+            <ShoppingCartIcon />  <span className=''>  {cartItem.length} </span></NavLink>
 
           <NavLink to='/filter' className='btn'> <FiFilter /> </NavLink>
         </div>

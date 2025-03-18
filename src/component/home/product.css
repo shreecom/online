@@ -80,13 +80,17 @@ hr{
  .btn{
     color: rgb(206, 220, 231);
     border: 1px solid  rgb(206, 220, 231);
+
     margin: 0 10px;
+    font-size: 20px;
      }
  .btn:hover{
     color: whitesmoke;
     border: 1px solid whitesmoke;
     background-color: brown;
  }
+ 
+ 
  /* icon  */
  .icon{
     font-size: 1rem;
@@ -109,6 +113,7 @@ hr{
         flex-direction: column;
         justify-content: space-evenly;
         background-color:rgb(245, 245, 245);
+        opacity: 0.9;
         position: absolute;
         width: 250px;
         top: -800px;
@@ -123,7 +128,7 @@ hr{
         color: black;
     }
     .nav h2{
-        font-size: 22px;
+        font-size: 20px;
         align-items: center;
     }
      .btn{
@@ -151,7 +156,9 @@ hr{
         margin: 0%;
         margin-top: 30px;
     }
-    
+    .product_panel h1{
+        font-size: 22px;
+    }
     .card_info{
         width: 140px;
         border: 1px solid rgb(189, 185, 185);
@@ -167,4 +174,9 @@ hr{
     .buyBtn{
         font-size: 15px;
     }
+    .btn{
+        border-style: none;
+        font-size: 15px;
+    }
+    
  }
