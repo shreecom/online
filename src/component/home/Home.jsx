@@ -1,6 +1,7 @@
 import React from 'react'
-import Product from './Product';
+// import Product from './Product';
 import './product.css';
+import Filter from './Filter';
 function Home() {
   return (
     <div className='HomePanel'>
@@ -10,7 +11,8 @@ function Home() {
         {/* <div className='tagline'>
           <h1>The Best Quality Product</h1>
         </div> */}
-      <Product/>
+      {/* <Product/> */}
+      <Filter/>
     </div>
   )
 }
