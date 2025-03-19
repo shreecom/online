@@ -79,7 +79,8 @@ hr{
  }
  .btn{
     color: rgb(206, 220, 231);
-  font-size: 20px;
+    
+    font-size: 20px;
      }
  .btn:hover{
     color: whitesmoke;
@@ -124,8 +125,6 @@ hr{
     .linkname {
         color: black;
     }
-    .linkname.active{
-        color: black;
     .nav h2{
         font-size: 20px;
         align-items: center;
@@ -177,5 +176,7 @@ hr{
         border-style: none;
         font-size: 15px;
     }
-    
- }}
+    .linkname:hover{
+        color: black;
+    }  
+ }
