@@ -6,6 +6,7 @@ import Home from './component/home/Home';
 import Cart from './component/home/Cart';
 
 import ProductDetails from './component/home/ProductDetails';
+import Product from './component/home/Product';
 import Filter from './component/home/Filter';
 
 
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route extact path='/' element={<Home />}></Route>
-        <Route path='/product' element={<Filter/>}></Route>
+        <Route path='/product' element={<Product />}></Route>
         <Route path='/product/:id' element={<ProductDetails />}></Route>
 
         <Route path='/contact' element={<Contact />}></Route>
