@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import './filter.css';
-import './product.css';
+
 const Filter = () => {
   const product = useSelector((state) => state.products.products) ; // Ensure data exists
   const [filteredProducts, setFilteredProducts] = useState([]);
