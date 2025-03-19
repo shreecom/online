@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import './filter.css';
+import './product.css';
 const Filter = () => {
   const product = useSelector((state) => state.products.products) ; // Ensure data exists
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -32,17 +33,22 @@ const Filter = () => {
       </div>
 
       {/* Display Filtered Products */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "20px" }} className="filterBox">
+      <div  className="filterBox">
 
         {filteredProducts.map((p) => (
-          <div key={p.id} style={{ border: "1px solid #ccc", padding: "10px" }}>
-            <img src={p.image} alt={p.title} width="100" />
+          <div className='card_info'>
+          <div key={p.id} >
+            <img src={p.image} alt={p.title}/>
+
+            <div className='product_detail'>
             <h4>{p.title.substring(0,12)}</h4>
             <p>Category: {p.category}</p>
             <h5>Price: ${p.price}</h5>
             <Link to={`/product/${p.id}`} className='buyBtn'>Buy Now</Link>
           </div>
-        ))}
+          </div>
+          
+        </div>))}
       </div>
     </div>
   );
