@@ -72,7 +72,7 @@
 }
 
 @media screen and (max-width: 780px) {
-    .box img{
+    .boxImage img{
         height: 200px;
         width: 200px;
     }

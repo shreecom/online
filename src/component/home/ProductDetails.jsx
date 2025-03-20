@@ -13,10 +13,10 @@ const ProductDetails = () => {
     if(!product) return <p>Product not found</p>;
   return (
     <div>
-        <div className='boxProduct box'>
-    
-        <img src={product.image} alt={product.title} height={400} width={400}></img>
-        
+        <div className='box'>
+        <div className='boxImage'>
+        <img src={product.image} alt={product.title} height={300} width={300}></img>
+        </div>
      <div className='productDetails'>
     
      <p>{product.category}</p>
