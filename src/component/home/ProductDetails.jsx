@@ -13,7 +13,7 @@ const ProductDetails = () => {
     if(!product) return <p>Product not found</p>;
   return (
     <div>
-        <div className='box'>
+        <div className='boxProduct box'>
     
         <img src={product.image} alt={product.title} height={400} width={400}></img>
         

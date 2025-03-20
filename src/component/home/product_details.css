@@ -70,3 +70,19 @@
     
     transition: 1s ease-in-out;
 }
+
+@media screen and (max-width: 780px) {
+    .box img{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .productDetails h3{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .productDetails h5{
+        font-size: 18px;
+    }
+    
+}
