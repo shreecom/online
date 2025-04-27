@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './product.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -9,15 +9,18 @@ import { FaBars } from "react-icons/fa";
 
 function Navbar() {
   const [isopen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isopen);
-  }
+    useEffect(()=>{
+    let toggleMenu = () => {
+      setIsOpen(false);
+    };
+    document.addEventListener("mousedown",toggleMenu);
+  });
   const cartItem = useSelector((state) => state.cart.cartItem);
   return (
     <>
       <div className='nav'>
       {/* menu button */}
-      <div className='icon' onClick={toggleMenu}>  
+      <div className='icon' onClick={()=>{setIsOpen(!isopen)}}>  
           <FaBars />
         </div>
     <div><h2>Fation Market</h2> </div>
